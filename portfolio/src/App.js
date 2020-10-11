@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 
 
 class App extends Component {
-    constructor() {
-        super();
-        this.state = { displayBio: false };
-        this.toggleBioDisplay=this.toggleBioDisplay.bind(this);
-    }
+    state={displayBio:false};
+    // constructor() {
+    //     super();
+    //     this.state = { displayBio: false };
+    //     this.toggleBioDisplay=this.toggleBioDisplay.bind(this);
+    // }
 
-    toggleBioDisplay(){
+    toggleBioDisplay=()=>{
         this.setState({displayBio:!this.state.displayBio})
     }
     render() {
