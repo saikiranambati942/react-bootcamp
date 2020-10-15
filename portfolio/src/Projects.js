@@ -12,7 +12,7 @@ class Project extends Component {
         // const link=this.props.project.link;
 
         return (
-            <div style={{display:'inline-block', width: 350, margin: 10}}>
+            <div style={{display:'inline-block', width: 450, margin: 30}}>
                 <h3>{title}</h3>
                 <img src={image} alt='profile' style={{width: 300, height: 200}}/>
                 <p> {description}</p>
