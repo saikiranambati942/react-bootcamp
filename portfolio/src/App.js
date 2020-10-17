@@ -20,13 +20,13 @@ class App extends Component {
             <div>
                 <img src={profile} alt='profile' className='profile'/>
                 <h1>Hello!</h1>
-                <p>My name is Sai.</p>
-                   <p> I'm a Software Engineer. I'm always looking forward to work on exciting projects.</p>
+                <p>My name is Sai. I'm a software engineer. </p>
+                   <p>I'm always looking forward to work on exciting projects.</p>
                 {
                     this.state.displayBio ? (
                         <div>
                             <p>I live in Sweden and code every day</p>
-                            <p>My favorite language is Javascript and ReactJS is awesome</p>
+                            <p>My favorite language is Golang, Javascript and ReactJS is awesome</p>
                             <p>Besides coding, I listen to music</p>
                             <button onClick= {this.toggleBioDisplay}>Show less</button>
                         </div>
