@@ -20,7 +20,7 @@ class App extends Component {
             <div>
                 <img src={profile} alt='profile' className='profile'/>
                 <h1>Hello!</h1>
-                <p>My name is Sai. </p>
+                <p>My name is Sai.</p>
                 <Title/>
                    <p>I'm always looking forward to work on exciting projects.</p>
                 {
