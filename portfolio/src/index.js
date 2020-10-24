@@ -11,12 +11,13 @@ ReactDOM.render(
 // new Promise( (resolve)=>{
 
 //     setTimeout( () =>{
-//         resolve('Hello world!')
+//         console.log('Hello');
+//         resolve()
 //     },2000);
 
 // })
 // .then(quote => {
-//     console.log(quote);
+//     console.log(' world!');
 // })
 
 
